@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Karla:400,700);
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;
+	font-family: 'Karla', sans-serif;
+    color: #333;}
+
+/* Header */
+header {
+	background-color: #333333;
+	margin: 0 0 40px 0;
+	padding: 10px 0 0 0;
+	min-height: 50px;
+	text-align: center;}
+img{
+	border: 2px solid black;
+	margin: 6px;
+	text-align: bottom;
+}
+#gallery #mydiv
+{
+	float: left;
+	margin: 0;
+	text-align: center;
+}
+h1 {
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 10px auto 5px auto;
+  width: 516px;
+  height: 21px;
+  text-align: center;
+  color: white;
+  white-space: nowrap;
+ }
+/* Filter and search options */
+#price-range {
+	width: 370px;
+	margin: 10px auto 30px auto;
+	text-align: center;
+	font-weight: bold;}
+#value-min, #value-max {
+	width: 100px; 
+	border: none; 	
+	background-color: #f1f1f1;
+	font-family: 'Karla', sans-serif;}
+#slider {margin: 30px 0 30px 0;}
+/* Filter and search options */
+#buttons, #search {
+	text-align: center;
+	margin-bottom: 30px;}
+
+/* Filter buttons */
+button {
+	background-color: #d7d7d7;
+	border: none;
+	padding: 3px 10px 4px 10px;
+	border-radius: 4px;
+	color: #333;
+	font-family: 'Karla', sans-serif;
+	font-size: 100%;}
+
+button:hover, button.active {
+	background-color: #00cccc;
+	color: #fff;
+	cursor: pointer;}
+
+
+/* Search input */
+input {
+	font-size: 120%;
+	border: 1px solid #999;
+	padding: 5px;}
+input:hover {
+	border: 1px solid #666;}
+input:focus {
+	border: 1px solid #00cccc;
+	outline: none;}
