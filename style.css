@@ -1,0 +1,48 @@
+body 
+{
+	background-color: #f1f1f1;
+    color: #333;
+    margin: 0;
+    font-family: calibri light;
+}
+header 
+{
+	background-color: #333;
+	text-align: center;
+}
+#gallery
+{
+	margin: auto;
+	width: 82%;
+}
+#gallery div
+{
+	border: 2px solid #DBDCE5;
+	float: left;
+	text-align: center;
+	padding: 10px;
+	border-radius: 8px; 
+	margin: 5px;
+}
+h1 
+{
+  	text-align: center;
+  	color: white;
+  	padding: 10px;
+  	margin: 0;
+  	font-size: 28pt;
+  	font-family: RobotoRegular,sans-serif;
+}
+p
+{
+	font-size: 11pt;
+}
+#search-by-name, #search-by-place 
+{
+	margin: 30px;
+	text-align: center;
+}
+input
+{
+	width: 250px;
+}
